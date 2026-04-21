@@ -122,7 +122,7 @@ It achieves the best performance in this project due to its ability to capture d
 ## 📉 Confusion Matrix
 
 **Bert** 
-![Uploading WhatsApp Image 2026-04-21 at 15.20.06.jpeg…]()
+<img width="1535" height="1389" alt="WhatsApp Image 2026-04-21 at 15 20 06" src="https://github.com/user-attachments/assets/e7710c15-0965-4760-8bbe-9037121682f1" />
 
 **SVM**
 <img width="1535" height="1389" alt="WhatsApp Image 2026-04-21 at 16 33 07" src="https://github.com/user-attachments/assets/b72b6a90-44f0-441d-9df6-e9d46ad78f6a" />
