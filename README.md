@@ -24,6 +24,7 @@ This project evaluates how different models handle such ambiguity.
 - **Number of Classes:** 20
 - **Categories:** Technology, Science, Politics, Religion, Sports, Hardware, and more
 - **Type:** Text documents
+- **Link** https://github.com/Ahmed-KKhaled/nlp-text-classification/tree/main/Text_Classification_Project/data
 
 ---
 ## 🏷️ Class Labels Explanation
