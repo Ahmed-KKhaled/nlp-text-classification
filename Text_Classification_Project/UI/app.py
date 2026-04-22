@@ -30,7 +30,6 @@ labels = [
     "Religion Misc"
 ]
 
-# 🎨 CSS لتكبير الخط
 st.markdown("""
     <style>
     .big-title {
