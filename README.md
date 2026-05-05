@@ -157,6 +157,62 @@ This can be explained by:
 - Handles ambiguous sentences more effectively
 
 ---
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Ahmed-KKhaled/nlp-text-classification.git
+cd nlp-text-classification
+```
+
+### 2. Create a virtual environment (recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate        # Mac/Linux
+venv\Scripts\activate           # Windows
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Download the dataset
+
+Download `20newsgroups` from [Data](https://github.com/Ahmed-KKhaled/nlp-text-classification/tree/main/Text_Classification_Project/data)
+
+---
+
+## 🚀 Usage
+
+### Run the full notebook
+
+```bash
+jupyter notebook nlp-text-classification/Text_Classification_Project/bert_notebook/bert.ipynb
+```
+
+
+---
+
+## 📁 Project Structure
+
+```
+nlp-text-classification/
+│
+├── Text_Classification_Project/
+│   └── bert_notebook/
+│       ├── bert.ipynb
+│   └── lstm_notebook/
+|       ├── lstm.ipynb
+|   └── traditional_ml_notebook/
+|       ├── traditional_ml.ipynb
+│
+├── requirements.txt                       # Python dependencies
+└── README.md                              # Project documentation
+```
 
 ## 🛠️ Models Used
 
