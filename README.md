@@ -189,11 +189,23 @@ Download `20newsgroups` from [Data](https://github.com/Ahmed-KKhaled/nlp-text-cl
 ## 🚀 Usage
 
 ### Run the full notebook
-
 ```bash
-jupyter notebook nlp-text-classification/Text_Classification_Project/bert_notebook/bert.ipynb
+jupyter notebook Text_Classification_Project/bert_notebook/bert.ipynb
 ```
 
+### Load and use the trained BERT model
+```python
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+import torch
+
+model = AutoModelForSequenceClassification.from_pretrained("ahmed552005/20newsgroups-bert")
+tokenizer = AutoTokenizer.from_pretrained("ahmed552005/20newsgroups-bert")
+
+inputs = tokenizer("NASA launched a new satellite", return_tensors="pt", truncation=True, max_length=300)
+logits = model(**inputs).logits
+predicted = torch.argmax(logits, dim=1).item()
+# Output: sci.space
+```
 
 ---
 
