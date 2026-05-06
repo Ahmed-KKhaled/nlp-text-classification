@@ -116,7 +116,6 @@ It achieves the best performance in this project due to its ability to capture d
 | The team won the championship | Hockey | Hockey/Baseball | Hockey |
 | Selling used laptop cheap | For Sale | For Sale | For Sale |<img width="1535" height="1389" alt="WhatsApp Image 2026-04-21 at 15 20 06" src="https://github.com/user-attachments/assets/82f5d0e2-7bb2-4606-bb15-5161ec30932b" />
 
-| Debate about government laws | Politics | Politics | Politics |
 
 ---
 
@@ -125,6 +124,7 @@ It achieves the best performance in this project due to its ability to capture d
 **Bert** 
 <img width="1535" height="1389" alt="WhatsApp Image 2026-04-21 at 15 20 06" src="https://github.com/user-attachments/assets/e7710c15-0965-4760-8bbe-9037121682f1" />
 
+
 **SVM**
 <img width="1535" height="1389" alt="WhatsApp Image 2026-04-21 at 16 33 07" src="https://github.com/user-attachments/assets/b72b6a90-44f0-441d-9df6-e9d46ad78f6a" />
 
@@ -132,7 +132,7 @@ It achieves the best performance in this project due to its ability to capture d
 ### Key Observations:
 - talk.politics.misc sometimes misclassified as talk.politics.gun
 - talk.religion.misc sometimes misclassified as alt.atheism
-- SVM shows better separation between similar emotions
+- SVM shows better separation between similar categories
 
 ---
 
@@ -155,6 +155,9 @@ This can be explained by:
 - Understands bidirectional context
 - Captures semantic meaning better than ML and LSTM
 - Handles ambiguous sentences more effectively
+
+## 🔍 why LSTM performed badly?
+- LSTM performed worse due to its difficulty in handling long-range dependencies, lack of pre-training, and inefficiency in capturing global context compared to transformer-based models like BERT.
 
 ---
 ## ⚙️ Installation
@@ -233,7 +236,6 @@ nlp-text-classification/
 - Linear SVC
 - LSTM (PyTorch)
 - BERT (HuggingFace Transformers)
-
 ---
 
 ## ⚙️ Technologies Used
@@ -244,4 +246,3 @@ nlp-text-classification/
 - TensorFlow
 - HuggingFace Transformers
 - Pandas / NumPy
-- Streamlit (for deployment)
