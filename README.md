@@ -1,5 +1,14 @@
 # 📰 20 Newsgroups Text Classification
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Transformers-FFD21E?logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-FF6F00?logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?logo=pytorch&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0+-lightgrey?logo=pandas)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.3+-orange?logo=scikit-learn&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.12+-teal)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
 This project compares Traditional Machine Learning, LSTM, and BERT for multi-class text classification using the 20 Newsgroups dataset. The goal is to classify text documents into 20 different categories and evaluate which approach performs best for NLP classification tasks.
 
 ---
